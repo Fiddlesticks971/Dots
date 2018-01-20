@@ -1,0 +1,41 @@
+Rev A
+Problem:
+    I want to learn how to openCl with multiple video cards
+
+Specs:
+    create a simiple application that allows separate video cards to control dots in a square space.
+
+Input Files:
+    OpenCl
+    OpenGL
+    glut
+    multi thread
+    
+Objects:
+    dot
+    -position
+        -x
+        -y
+    -angle
+    
+    dot_array
+    -list of dots
+    
+    device
+    
+    device_array
+
+Threads:
+    main_application
+    time_sync
+
+Device Function:
+    updatePosition
+
+Function:
+    deviceDetection
+    deviceInitialization
+    applicationInitialization
+    updateDisplay
+
+    
